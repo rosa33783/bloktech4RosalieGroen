@@ -8,8 +8,16 @@ body{
 }
 
 h1{
-    font-size: 8em;
+    font-size: 3em;
     text-align: center;
     margin: top 1em, ;
 }
 
+.bg{
+  background: url("../static/404background.jpeg");
+  background-repeat: no-repeat;
+}
+
+label{
+  font-size: 2em;
+}
