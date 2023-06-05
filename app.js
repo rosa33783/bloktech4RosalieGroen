@@ -44,22 +44,34 @@ app.use(express.static('static'))
 
 
 app.get('/test', function (req, res) {
-  res.send('huh')
-})
 
-//app.get('/home', (req, res) => {
-     // res.render('home');
- // });
+     res.send('huh')
+})
 
 app.get('/matched', (req, res) => {
 
       res.render('matched');
   });
 
+app.get('/weather', (req, res) => {
+
+      res.render('weather');
+  });
+
   app.get('/home', async (req, res) => {
-    const user = await User.findOne({name:"Jimmy"})
-    res.render('home',user
-    );
+    const users = await User.findOne()
+    res.render('matched', {users});
+});
+
+
+app.get('/matched', async (req, res) => {
+  try {
+    const users = await User.find();
+    res.render('matched', { users });
+  } catch (error) {
+    console.error('Error fetching user information:', error);
+    res.render('error');
+  }
 });
 
 app.listen(3000);

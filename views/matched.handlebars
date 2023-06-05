@@ -1,20 +1,31 @@
 
 <header>
+  <img src="logo.png" class="logoRest">
+   <a href="/home">
+        <img src="left.png" class="backButton">
+    </a>
+  
   <h1>your matches</h1>
+  </a>
+  <p id="javascript-disabled">sorry your matches can't be found</p>
 </header>
 
-<main>
-  
-<div id="image-container"></div>
-<p id="gekozen-data"></p>
-<p id="user1-name"></p>
-<p id="user1-age"></p>
-
-
+<main id="matchedMain">
+  <div id="image-container"></div>
+  <p id="gekozen-data"></p>
+  <p id="user1-name"></p>
+  <p id="user1-age"></p>
+{{ #each users}}
+  <p class = "user-name"> {{ name}} </p>
+  <p class = "user-age">{{ age }}</p>
+  <p class = "user-hobby"> {{ hobby }}</p>
+  {{/each}}
 <script src="matched.js"></script>
-<div id="weather"></div>
-
 </main>
 
-<footer>
+<footer id="onlyFooter">
+  <p>Look at the weather to see if you can go outside!</p>
+
+  <a href="/weather">
+    <button id="weatherButton">go</button>
 </footer>
