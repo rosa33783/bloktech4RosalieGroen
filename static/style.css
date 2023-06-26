@@ -136,7 +136,7 @@ input{
   justify-content: center;
 }
 
-#alles {
+.alles {
   display: flex;
   flex-direction: column;
   justify-content: left;

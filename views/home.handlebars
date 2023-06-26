@@ -3,22 +3,34 @@
   <h1>Select a hobby or skill you want to share with someone</h1>
 </header>
 
-<main>
-{{name}}
-{{hobby}}
-{{age}}
+<main class="alles">
+  <label>
+    <input type="checkbox" value="guitar" class="hashtag-checkbox" id="guitarCheckbox"> Guitar
+  </label>
+  
+  <label>
+    <input type="checkbox" value="cooking" class="hashtag-checkbox" id="cookingCheckbox"> Cooking
+  </label>
 
-<div id="alles"> 
-  <label> <input type="checkbox" value="guitar" class="hashtag-checkbox" id="guitarCheckbox" name="hashtags" > Guitar</label>
-  <label> <input type="checkbox" value="cooking" class="hashtag-checkbox" id="cookingCheckbox" name="hashtags" > Cooking</label>
-  <label> <input type="checkbox" value="gaming" class="hashtag-checkbox"  id="gamingCheckbox" name="hashtags" > Gaming</label>
-  <label> <input type="checkbox" value="knitting" class="hashtag-checkbox" id="knittingCheckbox" name="hashtags" > Knitting</label> 
-  <label> <input type="checkbox" value="painting" class="hashtag-checkbox" id="paintingCheckbox" name="hashtags" > Painting</label>
-</div>
-    
-      <a href="/matched" class="nxtLink">
-        <button class="nextBtn">next</button>
-      </a>
+  <label>
+    <input type="checkbox" value="gaming" class="hashtag-checkbox" id="gamingCheckbox"> Gaming
+  </label>
+
+  <label>
+    <input type="checkbox" value="knitting" class="hashtag-checkbox" id="knittingCheckbox"> Knitting
+  </label>
+
+  <label>
+    <input type="checkbox" value="painting" class="hashtag-checkbox" id="paintingCheckbox"> Painting
+  </label>
+
+<div id="AantalSection">
+      <p id="styleText">Choose a style</p>
+  </div>
+
+  <a href="/matched" class="nxtLink" id="matchLink">
+    <button class="nextBtn">next</button>
+  </a>
 
 <script src="index.js"></script>
 </main>
