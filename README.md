@@ -28,7 +28,6 @@ ESLint is a popular linter for JavaScript and TypeScript code. A linter is a too
 With the database its also really important to use an .env file in your code so you can put your 
 database URI in there so nobody can see your password and account name.
 
-
 # license
 The MIT License is a permissive open-source license widely used for software projects. It allows users to freely use, modify, distribute, and sell copies of the software, subject to certain conditions.
 
