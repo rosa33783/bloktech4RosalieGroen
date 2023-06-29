@@ -1,7 +1,8 @@
 # Skillspark
 
+# Styling
 # How to get to work
-If you are thinking about building a matching application here are some things you van use to make a good start
+If you are thinking about building a matching application here are some things you van use to make a good start.
 
 **NPM**
 First you have to install NPM on your VS code.
@@ -20,7 +21,7 @@ For my application I used Mongoose to get the data from the database.
 Mongoose is an Object Data Modeling (ODM) library for Node.js that provides a simplified way to interact with MongoDB. It acts as a middleware layer between your application and the MongoDB database, allowing you to define schemas, models, and perform database operations easily.
 
 **Linters**
-
+ESLint is a popular linter for JavaScript and TypeScript code. A linter is a tool that analyzes your code for potential errors, style violations, and other issues, helping you catch and fix problems early in the development process. ESLint is highly configurable, which means you can customize its rules to match your coding style and project requirements. I highly reccomend to install this.
 
 # .env
 With the database its also really important to use an .env file in your code so you can put your 
