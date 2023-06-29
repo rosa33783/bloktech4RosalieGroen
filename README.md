@@ -1,6 +1,5 @@
 # Skillspark
 
-# Styling
 # How to get to work
 If you are thinking about building a matching application here are some things you van use to make a good start.
 
