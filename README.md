@@ -8,9 +8,16 @@ First you have to install NPM on your VS code.
 npm (Node Package Manager) is a package manager for JavaScript and Node.js. It helps developers easily manage and install packages and dependencies for their projects. npm provides a command-line interface (CLI) and a central package registry, making it simple to find, install, and update packages. It also facilitates dependency management, versioning, and the execution of custom script.
 
 **Handlebars**
-For the 
+I used handlebars to render my html pages via one template.
+Handlebars is a popular templating language that allows you to generate dynamic HTML templates by combining static HTML markup with dynamic data. It provides a straightforward and intuitive syntax for rendering data dynamically within HTML templates.
 
 **MongoDB**
+I used MongoDB to store the accounts and show them on my matched.handlebars page.
+MongoDB is a popular, open-source NoSQL database management system that provides a flexible and scalable approach to storing and retrieving data. Unlike traditional relational databases, MongoDB follows a document-oriented data model, where data is stored in flexible, JSON-like documents.
+
+**Mongoose**
+For my application I used Mongoose to get the data from the database.
+Mongoose is an Object Data Modeling (ODM) library for Node.js that provides a simplified way to interact with MongoDB. It acts as a middleware layer between your application and the MongoDB database, allowing you to define schemas, models, and perform database operations easily.
 
 **Linters**
 
