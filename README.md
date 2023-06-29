@@ -1,4 +1,6 @@
+
 # Skillspark
+People who want to learn a new hobby or skill but may not have the motivation or ability to take the first step can use the SkillSpark app to find others who are also looking to expand their skills and hobbies. They can connect with like-minded individuals and participate in activities such as taking lessons or courses together. SkillSpark provides an opportunity not only for romantic dates but also for making new friends and exploring different communities.
 
 # How to get to work
 If you are thinking about building a matching application here are some things you van use to make a good start.
