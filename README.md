@@ -2,9 +2,17 @@
 
 # How to get to work
 If you are thinking about building a matching application here are some things you van use to make a good start
-first you have to install NPM on your VS code.
 
-npm (Node Package Manager) is a package manager for JavaScript and Node.js. It helps developers easily manage and install packages and dependencies for their projects. npm provides a command-line interface (CLI) and a central package registry, making it simple to find, install, and update packages. It also facilitates dependency management, versioning, and the execution of custom scripts.
+**NPM**
+First you have to install NPM on your VS code.
+npm (Node Package Manager) is a package manager for JavaScript and Node.js. It helps developers easily manage and install packages and dependencies for their projects. npm provides a command-line interface (CLI) and a central package registry, making it simple to find, install, and update packages. It also facilitates dependency management, versioning, and the execution of custom script.
+
+**Handlebars**
+For the 
+
+**MongoDB**
+
+**Linters**
 
 
 # .env
